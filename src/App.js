@@ -6,7 +6,7 @@ import Textarea from './components/Textarea';
 function App() {
   return (
 <>
-    <Navbar brandname="Text Utilities" home="Home" About="About" Contact="Contact"/>
+    <Navbar brandname="Text Analysis" home="Home" About="About" Contact="Contact"/>
     <div className="container my-4">
  <Textarea heading="Text Analyzer"/>
  </div>
