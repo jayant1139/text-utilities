@@ -23,13 +23,13 @@ function App() {
           {/* <Textarea heading="Text Analyzer"/> */}
           {/* <About/> */}
           <Switch>
-            <Route exact path="/" component={Textarea}>
+            <Route exact path="/text-utilities/" component={Textarea}>
               
             </Route>
-            <Route exact path="/about" component={About}>
+            <Route exact path="/text-utilities/about" component={About}>
               
             </Route>
-            <Route exact path="/contact" component={Contact}>
+            <Route exact path="/text-utilities/contact" component={Contact}>
 
             </Route>
             <Route component={Textarea}>

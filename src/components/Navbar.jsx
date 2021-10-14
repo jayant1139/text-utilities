@@ -7,7 +7,7 @@ export default function Navbar(props) {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="text-utilities/">
             {props.brandname}
           </Link>
           <button
@@ -24,17 +24,17 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page" to="/text-utilities/">
                 {props.home}
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/About">
+                <Link className="nav-link" to="/text-utilities/about">
                 {props.About}
                 </Link>
               </li> 
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
+                <Link className="nav-link" to="/text-utilities/contact">
                 {props.Contact}
                 </Link>
               </li>
