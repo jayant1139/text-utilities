@@ -32,7 +32,7 @@ function App() {
             <Route exact path="/text-utilities/contact" component={Contact}>
 
             </Route>
-            <Route component={Textarea}>
+            <Route component={Error}>
 
             </Route>
 
