@@ -15,7 +15,7 @@ export default function Textarea(props) {
   const count=()=>{
 let word=text.split(" ").length;
  let character=text.length;
- setText(word+" words and "+character+" characters!")
+ alert(word+" words and "+character+" characters!")
   }
   
   const copytext=()=>{
