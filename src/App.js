@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
+import Textarea from './components/Textarea';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<>
+    <Navbar brandname="Text Utilities" home="Home" About="About" Contact="Contact"/>
+    <div className="container my-4">
+ <Textarea heading="Text Analyzer"/>
+ </div>
+  </>
+    );
 }
 
 export default App;
