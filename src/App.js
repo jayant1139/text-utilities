@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Textarea from './components/Textarea';
+import Error from './components/Error';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -10,33 +11,37 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Contact from './components/Contact';
 
 function App() {
   return (
-<>
-    <Router>
+    <>
+      <Router>
 
-    <Navbar brandname="Text Analysis" home="Home" About="About" Contact="Contact"/>
-    <div className="container my-4">
- {/* <Textarea heading="Text Analyzer"/> */}
- {/* <About/> */}
- <Switch>
- <Route path="/Home">
- <Textarea heading="Text Analyzer"/>  
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-          <Textarea heading="Text Analyzer"/>
+        <Navbar brandname="Text Analysis" home="Home" About="About" Contact="Contact" />
+        <div className="container my-4">
+          {/* <Textarea heading="Text Analyzer"/> */}
+          {/* <About/> */}
+          <Switch>
+            <Route exact path="/" component={Textarea}>
+              
+            </Route>
+            <Route exact path="/about" component={About}>
+              
+            </Route>
+            <Route exact path="/contact" component={Contact}>
 
-          </Route>
-        </Switch>
- </div>
- </Router>
- 
-  </>
-    );
+            </Route>
+            <Route component={Error}>
+
+            </Route>
+
+          </Switch>
+        </div>
+      </Router>
+
+    </>
+  );
 }
 
 export default App;
