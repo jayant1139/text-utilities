@@ -17,6 +17,16 @@ let word=text.split(" ").length;
  let character=text.length;
  setText(word+" words and "+character+" characters!")
   }
+  
+  const copytext=()=>{
+    let copytext=document.getElementById('Box');
+     copytext.select();
+    navigator.clipboard.writeText(copytext.value);
+      }
+
+  const clear=()=>{
+      setText("");
+  }
   const textchange = (event) => {
     setText(event.target.value);
   };
@@ -30,7 +40,7 @@ let word=text.split(" ").length;
           className="form-control"
           value={text}
           onChange={textchange}
-          id="myBox"
+          id="Box"
           rows="8"
         ></textarea>
     </div>
@@ -42,6 +52,12 @@ let word=text.split(" ").length;
         </button>
         <button className="btn btn-primary my-2 mx-2" onClick={count}>
           Get Count
+        </button>
+        <button className="btn btn-primary my-2 mx-2" onClick={copytext}>
+          Copy Text
+        </button>
+        <button className="btn btn-primary my-2 mx-2" onClick={clear}>
+          Clear
         </button>
       </div>
       {/* <div className="container my-3">
