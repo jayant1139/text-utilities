@@ -1,4 +1,6 @@
-##[Live Site](https://i.ibb.co/4sH4Zkb/Screenshot-2021-10-16-133829.jpg)
+###[Live Site](https://jayant1139.github.io/text-utilities)
+![Text-utilitis](https://i.ibb.co/4sH4Zkb/Screenshot-2021-10-16-133829.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
