@@ -1,6 +1,24 @@
-# TEXT-Utilities Application
-### [Live Site](https://jayant1139.github.io/text-utilities/)
-![Text-utilitis](https://i.ibb.co/4sH4Zkb/Screenshot-2021-10-16-133829.jpg)
+
+# TEXT UTILITIES 
+Text Utilities help you convert the given text into uppercase, lowercase, also help to count words and characters in it and then you can easily copy modified text to clipboard.
+
+
+ ## [Live Here](https://jayant1139.github.io/text-utilities/)
+
+
+### 🛠 Skills
+REACTJS,JAVASCRIPT, HTML, CSS
+
+
+## Screenshot
+
+![App Screenshot](https://raw.githubusercontent.com/jayant1139/text-utilities/master/Screenshot%202021-10-16%20133829.jpg)
+
+### 🔗 Connect here
+[![Github](https://img.shields.io/badge/my_github-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/jayant1139)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayant-singh-475643156/)
+
+
 
 # Getting Started with Create React App
 
