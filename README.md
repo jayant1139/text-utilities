@@ -1,16 +1,16 @@
 
-# TEXT UTILITIES 
-Text Utilities help you convert the given text into uppercase, lowercase, also help to count words and characters in it and then you can easily copy modified text to clipboard.
+# _TEXT UTILITIES_ 
+Text Utilities help you convert the given text into _**uppercase, lowercase**_, also helps to _**count words**_ and **_characters_** in it and also provides feature to  easily  _**copy**_ modified text to _**clipboard**_.
 
 
  ## [Live Here](https://jayant1139.github.io/text-utilities/)
 
 
-### 🛠 Skills
-REACTJS,JAVASCRIPT, HTML, CSS
+### 🛠 _SKILLS USED_
+_**REACTJS**, JAVASCRIPT, HTML, CSS_
 
 
-## Screenshot
+## SCREENSHOT
 
 ![App Screenshot](https://raw.githubusercontent.com/jayant1139/text-utilities/master/Screenshot%202021-10-16%20133829.jpg)
 
